@@ -109,9 +109,14 @@ function Footer() {
 
               
 
-              <button className="w-14 h-14 rounded-2xl bg-zinc-900 border border-white/10 hover:border-cyan-400 hover:text-cyan-400 transition duration-300 flex items-center justify-center">
-                <MessageCircle size={24} />
-              </button>
+            <a
+             href="https://api.whatsapp.com/send?phone=5491176322375"
+             target="_blank"
+             rel="noopener noreferrer"
+             className="w-14 h-14 rounded-2xl bg-zinc-900 border border-white/10 hover:border-cyan-400 hover:text-cyan-400 transition duration-300 flex items-center justify-center"
+            >
+            <MessageCircle size={24} />
+            </a>
 
             </div>
           </div>
