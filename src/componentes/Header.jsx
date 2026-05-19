@@ -74,6 +74,7 @@ function Header() {
 
             <a
               href="#inicio"
+              onClick={() => setMenuOpen(false)}
               className="text-white text-lg hover:text-cyan-400 transition"
             >
               Inicio
@@ -81,6 +82,7 @@ function Header() {
 
             <a
               href="#trabajos"
+              onClick={() => setMenuOpen(false)}
               className="text-white text-lg hover:text-cyan-400 transition"
             >
               Trabajos
@@ -88,6 +90,7 @@ function Header() {
 
             <a
               href="#servicios"
+              onClick={() => setMenuOpen(false)}
               className="text-white text-lg hover:text-cyan-400 transition"
             >
               Servicios
@@ -95,6 +98,7 @@ function Header() {
 
             <a
               href="#contacto"
+              onClick={() => setMenuOpen(false)}
               className="text-white text-lg hover:text-cyan-400 transition"
             >
               Contacto
@@ -102,6 +106,7 @@ function Header() {
 
             <a
               href="https://wa.me/5491176322375"
+              onClick={() => setMenuOpen(false)}
               target="_blank"
               rel="noopener noreferrer"
               className="bg-cyan-400 hover:bg-cyan-300 text-black font-bold px-5 py-2 rounded-xl transition duration-300 shadow-lg shadow-cyan-400/30"
